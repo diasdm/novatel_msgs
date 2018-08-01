@@ -56,28 +56,21 @@ uint32 POSITION_TYPE_PPP=69
 uint32 POSITION_TYPE_INS_PPP_CONVERGING=73
 uint32 POSITION_TYPE_INS_PPP=74
 
-float64 latitude
-float64 longitude
-float64 altitude
+float64 lat
+float64 lon
+float64 hgt
 
 float32 undulation
 uint32 datum_id
 
-float32 latitude_std
-float32 longitude_std
-float32 altitude_std
+float32 lat_std
+float32 lon_std
+float32 hgt_std
 
 char[4] stn_id
 
 float32 diff_age
 float32 sol_age
 
-uint8 svs
-uint8 sol_svs
-uint8 l1_svs
-uint8 mult_svs
-uint8 reserved
-uint8 extsolstat
-uint8 gal_sig_mask
-uint8 sig_mask
-
+uint8 obs
+uint8 gpsl1
